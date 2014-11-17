@@ -1,5 +1,9 @@
-var app = angular.module("portafolioModule",['portafolioModule','ngRoute']).config(['$locationProvider', '$routeProvider',
-function($locationProvider,$routeProvider){
+var app = angular.module("portafolioModule",['portafolioModule','ngRoute']).config(['$locationProvider', '$routeProvider','$provide',
+function($locationProvider,$routeProvider,$provide){
+  $provide.decorator('$sniffer', function($delegate) {
+  $delegate.history = false;
+  return $delegate;
+});
   $routeProvider
 			.when('/About', {
 				templateUrl : '/templates/About.html',
