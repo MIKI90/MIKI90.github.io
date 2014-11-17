@@ -2,14 +2,14 @@
         color: black;
         font: helvetica;
     }
-/* ---------First block  title ------------*/    
+/* ---------First block  title ------------*/
 #show_title{
-        background: url('../img/w.jpg') no-repeat center center fixed; 
+        background: url('../img/w.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         overflow: hidden;
-    } 
+    }
 #show_title h1{
      color: white;
      font-size: 150%;
@@ -19,7 +19,7 @@
 }
 
 /* --------- block  menu  ------------*/
- #menu{
+ .menu{
 
     color:grey;
     font-size: 150%;
@@ -29,14 +29,14 @@
  }
 
 /* ---------  content  ------------*/
-#content{
+.content{
     color:grey;
     font-size: 150%;
     text-align: center;
     position: relative;
     padding: 5%;
 }
-#content img{
+.content img{
     width: 140px;
     height: 190px;
 }
