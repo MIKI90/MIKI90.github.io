@@ -49,20 +49,28 @@
 
 
 /* --------- block  social and contact  ------------*/
-#social{
+.social{
     color:black;
     font-size: 150%;
     text-align: center;
     position: relative;
-    padding: 7%
+    padding: 4%;
 }
 
-#twitter{
+.twitter{
    float: left;
-   width: 50%;
+   width: 30%;
+   height: 48px;
 }
 
-#github{
-    float: right;
-    width: 50%;
+.github{
+    float: left;
+    width: 30%;
+    height: 48px;
+}
+
+.mail{
+    float: left;
+    width: 30%;
+    height: 48px;
 }
