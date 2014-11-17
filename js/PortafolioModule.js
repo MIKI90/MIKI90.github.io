@@ -13,8 +13,8 @@ function($locationProvider,$routeProvider,$provide){
 				templateUrl : '/templates/Project.html',
 				controller : 'mainController'
 			})
-      .when('/Contact', {
-        templateUrl : '/templates/Contact.html',
+      .when('/Resources', {
+        templateUrl : '/templates/Resources.html',
         controller : 'mainController'
       }).
       otherwise({
