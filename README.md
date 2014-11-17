@@ -1,4 +1,4 @@
-MIKI90.username.github.io
+MIKI90.github.io
 =========================
 
 personal site
