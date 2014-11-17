@@ -12,7 +12,7 @@ function($locationProvider,$routeProvider,$provide){
 			.when('/Project', {
 				templateUrl : '/templates/Project.html',
 				controller : 'mainController'
-			});
+			})
       .when('/Contact', {
         templateUrl : '/templates/Contact.html',
         controller : 'mainController'
