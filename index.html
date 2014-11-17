@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="portafolioModule">
     <head>
-      <base href="/">
+        <base href="/">
         <meta name="fragment" content="!">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,9 +22,11 @@
         </div>
 <div>
       <nav>
-        <a href="#/templates/About.html" class="about" >About Me!</a>
-        <a href="#/templates/Project.html" class="project" >Projects</a>
-        <a href="#/templates/Contact.html" class="contact" >Contact</a>
+        <ul class="nav nav-pills">
+        <li><a href="/templates/About">About Me!</a></li>
+        <li><a href="/templates/Project">Projects</a></li>
+        <li><a href="/templates/Contact">Contact</a></li>
+      </ul>
       </nav>
 </div>
 <ng-view>
