@@ -1,4 +1,4 @@
-var app = angular.module("portafolioModule",['portafolioModule','ngRoute','ngAnimate']).config(['$locationProvider', '$routeProvider','$provide',
+var app = angular.module("portafolioModule",['ngRoute','ngAnimate']).config(['$locationProvider', '$routeProvider','$provide',
 function($locationProvider,$routeProvider,$provide){
   $provide.decorator('$sniffer', function($delegate) {
   $delegate.history = false;
