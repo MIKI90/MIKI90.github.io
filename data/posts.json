@@ -1,0 +1,7 @@
+[
+	{
+		"title": "My First Post",
+		"exerpt": "I try to implement a blog in this site with angular js",
+		"content": "This is my first post , I found a tutorial to implement a Blog app with angular js in this video https://www.youtube.com/watch?v=xjuoBGIiXsM . In the video was used ng route to manipulate the urls of the app, but if you see my site repository I implement ui route. Also if you want to see some tips for ui -route I invite you to see this post in scotch blog: 'https://scotch.io/tutorials/3-simple-tips-for-using-ui-router', is very useful."
+	}
+]

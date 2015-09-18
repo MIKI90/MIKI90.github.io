@@ -1,0 +1,5 @@
+<article data-ng-repeat="post in posts">
+	<h1><a ui-sref="singlePost({id: $index})">{{post.title}}</a></h1>
+    <p>{{post.exerpt}}</p>
+	<a ui-sref="singlePost({id: $index})"> Read more</a>
+</article>

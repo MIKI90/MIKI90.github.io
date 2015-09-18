@@ -1,4 +1,4 @@
-var app = angular.module("portafolioModule",['ui.router'])
+var app = angular.module("portafolioModule",['ui.router','portafolioModule.controller'])
 .config(function($stateProvider, $urlRouterProvider){
   $stateProvider
   .state('About',{
@@ -12,9 +12,17 @@ var app = angular.module("portafolioModule",['ui.router'])
   .state('Resources',{
     url:'/Resources',
     templateUrl:'templates/Resources.html'
+  })
+  .state('Blog',{
+    url:'/Blog',
+    templateUrl:'templates/Blog.html',
+    controller:'PostController'
+  })
+  .state('singlePost',{
+    url:'/post/:id',
+    templateUrl:'templates/singlepost.html',
+    controller:'SinglePostController'
   });
   $urlRouterProvider.otherwise('/About');
 });
-app.controller("mainController", function($scope){
 
-});
