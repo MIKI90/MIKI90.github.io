@@ -124,10 +124,10 @@
 }
 
 .nav-collapse a {
-  color: #fff;
+  color: #C95EC4;
   text-decoration: none;
   width: 100%;
-  background: #C95EC4;
+  background:#fff;
   border-bottom: 1px solid white;
   padding: 0.7em 1em;
   float: left;
